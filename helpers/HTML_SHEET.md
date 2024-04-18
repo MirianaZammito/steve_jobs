@@ -1,36 +1,40 @@
-Elementi testo HTML
+# COMANDI HTML
 
-<title>HTML_SHEET</title>
+### TITOLI
 
-<!-- >
-<h1> COMANDI HTML<br>
-<h2> sottotitolo <br>
-<h3> testo <br>
-<h4> testo <br>
-<br>
+<h1>Titolo di livello 1</h1>
+<h2>Titolo di livello 2</h2>
+<h3>Titolo di livello 3</h3>
+<h4>Titolo di livello 4</h4>
+<h5>Titolo di livello 5</h5>
+<h6>Titolo di livello 6</h6>
 
-<!-- PARAGRAFO----------------------------------------- -->
-<p>Lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit,
-sed quia non numquam eius modi tempora incidunt, ut labore et dolore
-magnam aliquam quaerat voluptatem. </p> <br>
+<!-- **************************************************** -->
 
-<span> span per formattare il testo. <br>
+### PARAGRAFO
 
-<!-- FORMATTAZIONE TESTO ---------------------------------->
-<h1>Grassetti e corsivi: <br> 
-<strong> strong </strong> <br>
-<em> em </em> <br>
-<span style="text-decoration: underline;">Questo testo sarà sottolineato.</span>
+`<p>` testo da inserire `</p>`
 
-<!-- LINK ------------------------------------------------->
- <h1> <strong>LINK IN HTML <br>
- Link ipertestuali<br>
- <!--href per specificare la destinazione del link-->
- <a href = https://www.w3schools.com/html>nome del link</a><br>
+<!-- **************************************************** -->
 
-<!-- IMMAGINI --------------------------------------------->
+### FORMATTAZIONE DEL TESTO
+ 
+- <b>Grassetto:</b> `<b>` testo `</b>`
+- <em>Corsivo:</em> `<em>` testo `</em>`
+- <span>Span:</span> `<span>` per formattare il testo `</span>`
+- per andare accapo: `<br>`
+
+<!-- **************************************************** -->
+
+### LINK ED IMMAGINI
+
+- Link ipertestuali: `<a href = URL> nome del link </a>`
+- Immagini: `<img src="URL_dell_immagine" alt="Testo alternativo">`
   
-  <!-- TABELLE--------------------------------------------->
+<!-- **************************************************** -->
+
+### TABELLE
+
  <table>, 
   <tr> 
   <td> CELLA 1 </td>

@@ -1,85 +1,72 @@
-<!-- per creare intestazioni -->
-# titolo primo livello 
-## titolo secondo livello 
-### titolo terzo livello
+# COMANDI MARKDOWN
 
-<!-- stili di testo -->
-Per scrivere un testo in grassetto metti due asterischi o due trattiin bassi prima e dopo la parola: 
-**testo grassetto** 
-__testo grassetto__ 
+## TITOLI
 
-Per scrivere un testo in corsivo metti un asterisco o un trattino basso prima e dopo la parola: 
-*testo corsivo*
-_testo corsivo_ 
+# Titolo di livello 1
+## Titolo di livello 2
+### Titolo di livello 3
+#### Titolo di livello 4
+##### Titolo di livello 5
+###### Titolo di livello 6
 
-Per scrivere un testo sia in corsivo che in grassetto, si usano tre *
-***Testo in corsivo e grassetto***
+<!-- **************************************************** -->
 
+## FORMATTAZIONE DEL TESTO
 
-Per scrivere un testo barrato scrivi prima e dopo la parola ~: 
-~~testo barrato~~
+- **grassetto** : ** testo **, __ testo __
+- *corsivo*: * testo *, _ testo _ 
+- *grassetto e corsivo*: ***  testo ***
+- ~~barrato~~: ~~ testo ~~
+- `evidenziato`: ` 
 
-Per evidenziare un testo "`"
-`Per evidenziare un testo`
+<!-- **************************************************** -->
 
+## LISTE 
 
-Per inserire una linea orizzontale, utilizza tre o più asterischi, trattini o sottolineature
-***
-___
----
-
-
-<!-- elenco puntato e numerato -->
-Per creare un elenco puntato metti un asterisco prima della parola:
+#### Elenco puntato:
 * Elemento 1 
-* Elemento 2
+- Elemento 2
++ Elemento 3
 
-Per creare un elenco numerato metti il numero con un punto prima della parola: 
+#### Elenco numerato
 1. Elemento A
 2. Elemento B
 
-<!-- liste -->
-
-Per creare liste di controllo 
+#### Liste di controllo 
 - [x] Elemento completato 
 - [ ] Elemento da fare
 
+<!-- **************************************************** -->
 
-<!-- link ed immagine -->
-Per inserire immagine direttamente nel testo (immagine Inline) si scrive in !Testo alternativo una breve descrizione dell'immagine 
+## LINK ED IMMAGINI 
 
+- Link: `[nome link](URL)`
+- Immagine: `![nome immagine](URL immagine)`
 
-testo del link: 
-Per aggiungere un link: 
+<!-- **************************************************** -->
 
-[nome del link](https://css-tricks.com/choosing-right-markdown-parser/)
+## CITAZIONI E CODICI
 
-![markdown](https://css-tricks.com/wp-content/uploads/2016/01/choose-markdown.jpg)
-
-
-<!-- per formattare testo come codice -->
-Per formattare un testo come codice, si scrive la frase dentro ': 
- `codice`
+- > citazione: > testo
+- blocco di codice/codice : ``` 
+  ``` 
  
- <!-- per creare tabelle -->
+<!-- **************************************************** -->
 
-Puoi creare tabelle utilizzando pipe (|) e trattini (-).
+## TABELLE
 
-| Nome   | Cognome |
-| ------ | ------- |
-| Mario  | Rossi   |
+| intestazione   | intestazione |
+|     ------     |   -------    |
+|    elemento    |   elemento   |
+
+<!-- **************************************************** -->
+
+## LINEE ORIZZONTALI
+
+`***`
+
+`___`
+
+`---`
 
 
-> testo citato. <!-- per citare un testo -->
-
-
-[//]: # (Questo è un commento.)
-
-
-
-<!-- pie di pagina-->
-Puoi aggiungere note a piè di pagina utilizzando la seguente sintassi:
-
-Questo è un testo con una nota a piè di pagina.[^1^][1]
-...
-[^1^][1]: Questa è la spiegazione della nota.
